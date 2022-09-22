@@ -1,6 +1,27 @@
-*/{
-    margin: 0;
-    box-sizing: border-box;
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp (16px, 2vw, 30px);
+    
 }
-body {background-image: linear-gradient(teal white);
+.parent{
+    border:solid 10px  rebeccapurple;
+    padding: 2px 2px ;
+}
+.card {
+    display: inline-block;
+    width:100%;
+    margin:2%;
+    box-sizing:border-box;
+}
+
+.card img{
+    width:100%;
+}
+
+
+
+activities .card{
+    width: 30%;
+    margin: 3;
 }
