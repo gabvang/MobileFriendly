@@ -1,0 +1,25 @@
+.mobiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width: 600px) {
+    body {
+        background-color: aquamarine;
+    }}
+
+@media(max-width: 600px) {
+        body{
+            background-color: blue;
+        }
+        .desktop{
+            display: none;
+        }
+    }
+@media(min-width: 600px) and (max-width: 900px){
+    .body{
+
+    }
+        background-color: ;
+    }
+}
